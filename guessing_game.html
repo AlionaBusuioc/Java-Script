@@ -1,0 +1,21 @@
+<script>
+  //0...100
+  var number = Math.round(Math.random() *100);
+  alert("Ready for the game?");
+
+  var n=1;
+  while(n<=10){
+    var guess = prompt("Your guess:?");
+    if (guess == numnber){
+      alert ("YEEEE! CORECT");
+      break; //stop while
+    }
+    if (guess > number){
+      alert ("Wrong! Number is smaller");
+    }
+    if (guess < number){
+      alert ("Wrong! Number is bigger");
+    }
+    n++;
+  }
+</script>
