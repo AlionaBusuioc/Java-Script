@@ -1,0 +1,19 @@
+<script>
+var wine =25;
+var pizza = 30;
+var salat = 45;
+var wine_q = prompt("How many bottles of wine ?");
+var pizza_q = prompt("How many pizza's?");
+var salat_q = prompt("How many salad's?");
+
+var total = wine * wine_q + pizza * pizza_q + salat * salat_q;
+if (total < 300){
+  alert ("Total price will be: "+ (total+50) + "lei , livrarea 50 de lei inclusa");
+}
+else if (total < 1000){
+  alert ("Total price will be: " + total + "lei, livrarea gratuita");
+}
+else {
+  alert ("Total price will be: "+ (total *0.8) + "lei, ati primit reducere 20% si livrarea e inclusa");
+}
+</script>
