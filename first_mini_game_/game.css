@@ -1,0 +1,16 @@
+td{
+  cursor:pointer; //crosshair;
+}
+.chair{
+  background-image: url(images/chair.png);
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 48px;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+.chair h3{
+  text-align: center;
+  color: white;
+}
